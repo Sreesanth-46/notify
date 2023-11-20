@@ -14,5 +14,6 @@ jobs:
       uses: peter-evans/repository-dispatch@v2
       with:
         token: ${{ secrets.REPO_ACCESS_TOKEN }}
+        repository: Sreesanth46/coverage-notfication
         event-type: dispatch-event
         client-payload: '{ "github": ${{ toJson(github) }}}'
