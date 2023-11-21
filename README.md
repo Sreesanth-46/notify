@@ -1,4 +1,4 @@
-# Configuring jest in React
+# Configuring jest in React.
 
 ### Install jest
 
